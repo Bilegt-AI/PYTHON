@@ -1,0 +1,5 @@
+print("Та өөрийн дурын тоог оруулаарай!")
+number=int(input("Та тоогоо оруулаарай!"))
+hour=(number//60)
+minutes=(number%60)
+print(f"{number} минут {hour} цаг {minutes} минут")
